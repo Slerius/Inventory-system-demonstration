@@ -1,3 +1,5 @@
+-- This script is a custom inventory handler with many custom things made specifically for a match based game, thats why the inventory is stored on sessiondata and not playerdata
+
 local RS = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 local MS = game:GetService("MarketplaceService")
