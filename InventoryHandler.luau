@@ -1,3 +1,5 @@
+-- This script is a server sided inventory handler with many functions such as gadgets, pick up, drop, handling other items like chests, furnaces, crafting, etc.
+
 local RS = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 local MS = game:GetService("MarketplaceService")
@@ -552,7 +554,7 @@ function inventory.Use(player, mousepos, released, position, rotation, buildname
 		end
 
 		
-		local function isRotationValid(rot) -- assures 45° rotation
+		local function isRotationValid(rot) -- assures 45Â° rotation
 			return rot % 45 == 0
 		end
 
